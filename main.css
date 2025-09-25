@@ -1,0 +1,31 @@
+header{
+    color: #f987c5;
+}
+
+
+body{
+    background-color: #14181d;
+    color: #f987c5;
+}
+
+
+nav{
+    padding: 5px;
+    line-height: 30px;
+}
+
+
+#skull{
+    width: 550px;
+    height: 250px;
+}
+
+
+p{
+    color: #fff5f7;
+}
+
+
+a{
+    color: #fff5f7;
+}
