@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript basics</title>
+</head>
+<body>
+    <header>
+        <h1>JavaScript basics</h1>
+
+          <nav>
+            <a href="index.html">Index or something</a>
+            <br>
+            <a href="boards.html">uhhh, boards</a>
+            <br>
+            <a href="basics.html">t h e  basics</a>
+            <br>
+            <a href="Dice Game.html">Dice Game!</a>
+            <br>
+            <a href="https://www.youtube.com/@hi_monke">my youtube channel :D</a>
+         </nav>
+    </header>
+
+     <main>
+
+        <h2>variables</h2>
+
+        <h2>decision logic</h2>
+
+        <h2>fuctions</h2>
+
+        <h2>loops</h2>
+   
+    </main>
+
+    <!-- when you want to use javascript code, use script tags -->
+    <script>
+
+        // single mine comment
+        /* multi line comment */
+
+        //lets us create our first variable, which is a piece of info the program stores
+        //camelCase
+        //var is less concerned with scope
+        var firstName = "monke"; //this is a string variable
+
+        //snake_case
+        //let is very concerned with scope
+        let first_name = "monke"; //this is also a string variable
+
+        //javascript is dynamically-typed language
+        //javascript tries to guess what the data type of your variables is
+        let age = 5; //javascript will assume this is an integer (int), just a whole number
+
+        let pi = 3.14; //javascript will assume this is a float, just numbers with decimals
+
+        let validInput = false; //javascript will assume this is a boolean, true/false
+
+        let last_Name = ""; //set up the variable now, and get the value later
+
+        //a valid way to set up a variable in javascript
+        //do not set up variables without let or var in javascript
+        middle_Name = "fartknocker";
+
+        /* ****** is/else - decision logic ****** */
+
+        //if statements test out the consition and are true of false, if true the inside {} will run
+        //== is equality / are the values on both sides are the same
+        //= is assignment, the value on the left side of the = will become the value on the right side
+        //=== is where javascript will compare both the value and the data type
+        if (age == 5){
+            //if the age is 5, then do some function
+            console.log("age is 5");
+        }
+        else if(age == 18){
+            console.log("age is 18 - you are an adult");
+        }
+        else if(age == 25){
+            console.log("age is 25 - car renting is now cheaper");
+        }
+        //the else is a catch all
+        else{
+            console.log("age is not 5");
+        }
+
+
+        function addNumbers(num1, num2){
+            return num1 + num2;
+        }
+
+        for(let i=0; i < 18; i++){
+            console.log("i=" + i.toString());
+        }
+
+    </script>
+</body>
+</html>
