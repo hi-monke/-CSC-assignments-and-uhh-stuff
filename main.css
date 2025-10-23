@@ -29,3 +29,10 @@ p{
 a{
     color: #fff5f7;
 }
+
+#memeImage{
+    position: absolute;
+    left: 26%;
+    top: 30%;
+}
+
