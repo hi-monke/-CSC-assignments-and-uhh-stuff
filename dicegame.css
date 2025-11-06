@@ -73,3 +73,6 @@ button{
   animation: FadeIn 0.45s linear;
 }
 
+a{
+    color: #00a2ff;
+}

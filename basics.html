@@ -16,9 +16,11 @@
             <br>
             <a href="basics.html">t h e  basics</a>
             <br>
-            <a href="Dice Game.html">Dice Game!</a>
+            <a href="Dice Game.html">!!! 🎲 SUPER DICE GAME 🎲 !!!</a>
             <br>
             <a href="input validation.html">Input Thing</a>
+            <br>
+            <a href="palindrome tester wat.html">~-PALINDROME TESTER-~</a>
             <br>
             <a href="https://www.youtube.com/@hi_monke">my youtube channel :D</a>
         </nav>
@@ -39,7 +41,7 @@
     <!-- when you want to use javascript code, use script tags -->
     <script>
 
-        // single mine comment
+        // single line comment
         /* multi line comment */
 
         //lets us create our first variable, which is a piece of info the program stores
@@ -91,10 +93,30 @@
             return num1 + num2;
         }
 
-        for(let i=0; i < 18; i++){
-            console.log("i=" + i.toString());
+        // loops let us run chunks of code over and over
+        // good for working with data displaying information
+        // for loops - loop that runs a set number of times
+        // while loop - loop that runs an undetermined number of times
+
+        // for loop, i is the uhh variable/counter, then set condition that has tp be true for the loop to run, lastly increase value of i (++ means just adding 1 to i, i+1)
+        for (let i = 0; i < 5; i++){
+            console.log("i=" + i);
         }
 
+        // set up variable that the while loop will test
+        let exit = "no";
+        // while loop, works great with user input, then can run either 0 times, a random number of times, or an infinite number of times
+        while (exit != "yes"){
+            console.log("test uhhh infinite loop");
+            // change condition that is being tested to get out of infinite loop
+            exit = "yes";
+        }
+
+        // do while loop, it runs at least 1 time
+        do{
+            // do something here
+            console.log("do while loop");
+        }while(exit != "yes");
     </script>
 </body>
 </html>
