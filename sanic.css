@@ -1,0 +1,236 @@
+body {
+    background-color: #23b14dff;
+    font-family: 'Comic Sans MS';
+
+    /* helps hide overflow when shaking */
+    overflow: scroll;
+    
+    overflow-x: hidden;
+}
+
+h1{
+color: rgb(0, 0, 0);
+}
+
+h2{
+color:blue;
+}
+
+h3{
+color:rgb(255, 217, 0);
+}
+
+h4{
+color:rgb(206, 0, 0);
+}
+
+h5{
+color:rgb(92, 84, 124);
+}
+
+p{
+color: black;
+}
+
+button{
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    background-color: transparent;
+    color: #ffe602;
+    width: 35px;
+    height: 35px;
+    border: 0px solid;
+    border-radius: 17.5px;
+    box-shadow:
+        0 0 0 2px orange,
+        0 0 0 8px yellow,
+        0 0 0 10px orange;
+}
+
+button:hover{
+    background-color: transparent;
+    color: #ffe602;
+    width: 35px;
+    height: 35px;
+    border: 0px solid;
+    border-radius: 17.5px;
+    box-shadow:
+        0 0 0 2px orange,
+        0 0 0 8px yellow,
+        0 0 0 10px orange,
+        0 0 25px 12px yellow;
+}
+
+button:active{
+    transform: scale(0.95);
+    background-color: transparent;
+    color: #ffe602;
+    width: 35px;
+    height: 35px;
+    border: 0px solid;
+    border-radius: 17.5px;
+    box-shadow:
+        0 0 0 2px orange,
+        0 0 0 8px yellow,
+        0 0 0 10px orange;
+}
+
+input{
+    background-color: white;
+    border: 0px solid;
+    box-shadow:
+        0 0 0 2px rgb(255, 0, 0),
+        0 0 0 4px rgb(255, 255, 255),
+        0 0 0 6px rgb(255, 0, 0);
+}
+/* hide sanic stuff until correct answer */
+#divHidden {
+    display: none;
+}
+
+/* Struff for the button image */
+
+#imgButton {
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#imgButton:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #00ff80;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #00ff80;
+}
+
+#imgButton:active {
+    transform: scale(0.95);
+}
+
+/* stuff for the spinnuing image */
+
+#imgSpin {
+    position: absolute;
+
+    /* start near center */
+    left: 45%;
+    top: 65%;
+
+    /* prevent weird text selection issues */
+    user-select: none;
+    pointer-events: none;
+}
+
+/* fast spinning animation */
+.spin {
+    animation: spin linear infinite;
+}
+
+/* spin keyframes */
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* screen shake stuffff */
+
+.shake {
+    animation: shake 0.10s infinite;
+}
+
+/* subtle butt noticeable shake */
+@keyframes shake {
+    0%   { transform: translate(0, 0); }
+    20%  { transform: translate(4px, 0); }
+    40%  { transform: translate(-4px, 0); }
+    60%  { transform: translate(0, 4px); }
+    80%  { transform: translate(0, -4px); }
+    100% { transform: translate(0, 0); }
+}
+
+nav a{
+    text-decoration: none;
+    padding: 2px;
+    line-height: 35px;
+    border-radius: 6px;
+    border: 2.5px solid;
+}
+
+.nav-index {
+    background-color: #14181d;
+    color: #f987c5;
+    border: 2.5px solid #fff5f7;
+}
+
+.nav-boards {
+    background-color: #14181d;
+    color: #f987c5;
+    border: 2.5px solid #fff5f7;
+}
+
+.nav-basics{
+    background-color: #ffffff;
+    color: #000000;
+    border: 2.5px solid #ffffff;
+}
+
+.nav-dice{
+    background-color: #e0f0ff;
+    color: #6098ff;
+    border: 2.5px solid #00a2ff;
+}
+
+.nav-input{
+    background-color: #21723c;
+    color: #62ff6a;
+    border: 2.5px solid #3cff36;
+}
+
+.nav-palindrome{
+    background-color: #d4a0ff;
+    color: #430069;
+    border: 2.5px solid #ff18a6;
+}
+
+.nav-sanic{
+    line-height: 47px;
+    background-color: #e0f0ff;
+    color: blue;
+    border: 0px solid #ffffff;
+    box-shadow:
+        0 0 0 2px orange,
+        0 0 0 6px yellow,
+        0 0 0 8px orange;
+}
+
+.nav-mater{
+    background-color: rgb(100, 76, 53);
+    color: rgb(118, 231, 212);
+    border: 2.5px solid rgb(216, 137, 64);
+}
+
+.nav-flowers{
+    line-height: 37px;
+    background-color: rgb(255, 238, 250);
+    color: #f5052d;
+    border: 0px solid #ffffff;
+    box-shadow:
+        0 0 0 2px #f987c5,
+        0 0 0 4px #a31e67;
+}
+
+.nav-table{
+    background-color: rgb(138, 156, 170);
+    color: #000000;
+    border: 2.5px solid rgb(223, 234, 243);
+}
+
+.nav-youtube{
+    background-color: #ff0033;
+    color: #ffffff;
+    border: 2.5px solid #0f0f0f;
+}

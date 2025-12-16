@@ -2,59 +2,57 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" type="tab icon" href="bizniz.webp">
+    <link rel="stylesheet" href="table.css">
+    <script src="table.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>palindrome tester? wat</title>
-
-    <link rel="stylesheet" href="palindrome testing.css">
-    <link rel="shortcut icon" type="tab icon" href="WORDS.png">
-    <script src="palindrome testing.js"></script>
+    <title>uhh table</title>
 </head>
 <body>
  <center>
-    <header>
-        <h1>~- PALINDROME TESTER -~</h1>
-    </header>
-
     <main>
-        <!-- make it so the form will not submit bc its a client side test -->
-        <form onsubmit="return false;">
-            <br>
-            <br>
-            <label for="txtInput">Word or Phrase to Test: </label>
-            <br>
-            <br>
-            <input type="text" id="txtInput" required>
-            <br>
-            <br>
-            <button onclick="testPalindrome();">Test word</button>
-            <br>
-            <br>
-        </form>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1>Programming Mistakes Table :O</h1>
+        <br>
 
-        <h2>
-            <div id="divResult"></div>
-        </h2>
+        <table id="tblData">
+            <caption>
+                programming mistakes and the costs
+                <br><br>
+            </caption>
+            <!-- tr is table row, each one should be in a tr
+                <tr> 
+                    td is table data/cell/column, the actual stuff in the table
+                    <td></td>
+                    <td></td>
+                </tr> -->
+            <tr>
+                <!-- this is the table heading -->
+                <th>Project</th>
+                <th>Year</th>
+                <th>Reason</th>
+                <th>Cost</th>
+            </tr>
+        </table>
     </main>
-    <footer>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+    <script>
+        loadData();
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
         <nav>
             <a href="index.html" class="nav-index">Index or something</a>
             <br>
@@ -78,7 +76,6 @@
             <br>
             <a href="https://www.youtube.com/@hi_monke" class="nav-youtube">my youtube channel :D</a>
         </nav>
-    </footer>
- </center>
+</center>
 </body>
 </html>

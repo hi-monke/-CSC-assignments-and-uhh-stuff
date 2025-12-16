@@ -8,12 +8,88 @@ body{
     color: #f987c5;
 }
 
-
-nav{
-    padding: 5px;
+nav a{
+    text-decoration: none;
+    padding: 2px;
     line-height: 30px;
+    border-radius: 6px;
+    border: 2.5px solid;
 }
 
+.nav-index {
+    background-color: #14181d;
+    color: #f987c5;
+    border: 2.5px solid #fff5f7;
+}
+
+.nav-boards {
+    background-color: #14181d;
+    color: #f987c5;
+    border: 2.5px solid #fff5f7;
+}
+
+.nav-basics{
+    background-color: #ffffff;
+    color: #000000;
+    border: 2.5px solid #ffffff;
+}
+
+.nav-dice{
+    background-color: #e0f0ff;
+    color: #6098ff;
+    border: 2.5px solid #00a2ff;
+}
+
+.nav-input{
+    background-color: #21723c;
+    color: #62ff6a;
+    border: 2.5px solid #3cff36;
+}
+
+.nav-palindrome{
+    background-color: #d4a0ff;
+    color: #430069;
+    border: 2.5px solid #ff18a6;
+}
+
+.nav-sanic{
+    line-height: 42px;
+    background-color: #e0f0ff;
+    color: blue;
+    border: 0px solid #ffffff;
+    box-shadow:
+        0 0 0 2px orange,
+        0 0 0 6px yellow,
+        0 0 0 8px orange;
+}
+
+.nav-mater{
+    background-color: rgb(100, 76, 53);
+    color: rgb(118, 231, 212);
+    border: 2.5px solid rgb(216, 137, 64);
+}
+
+.nav-flowers{
+    line-height: 32px;
+    background-color: rgb(255, 238, 250);
+    color: #f5052d;
+    border: 0px solid #ffffff;
+    box-shadow:
+        0 0 0 2px #f987c5,
+        0 0 0 4px #a31e67;
+}
+
+.nav-table{
+    background-color: rgb(138, 156, 170);
+    color: #000000;
+    border: 2.5px solid rgb(223, 234, 243);
+}
+
+.nav-youtube{
+    background-color: #ff0033;
+    color: #ffffff;
+    border: 2.5px solid #0f0f0f;
+}
 
 #skull{
     width: 550px;
@@ -25,14 +101,9 @@ p{
     color: #fff5f7;
 }
 
-
-a{
-    color: #fff5f7;
-}
-
 #memeImage{
     position: absolute;
-    left: 26%;
-    top: 30%;
+    left: 32%;
+    top: 53%;
 }
 

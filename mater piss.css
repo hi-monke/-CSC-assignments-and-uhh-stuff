@@ -1,11 +1,41 @@
-header{
-    color: #3cff36;
+body{
+    background-color: rgb(100, 76, 53);
 }
 
+h1{
+    color:rgb(118, 231, 212);
+}
 
-body{
-    background-color: #21723c;
-    color: #3cff36;
+button{
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    background-color: transparent;
+    border: 0px solid;
+    color: rgb(118, 231, 212);
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+#btnPlayAudio{
+    background-color: rgb(216, 137, 64);
+    color: black;
+    border: 2px solid;
+    border-color: rgb(118, 231, 212);
+    height: 30px;
+}
+
+#btnPauseAudio{
+    background-color: rgb(118, 231, 212);
+    color: black;
+    border: 2px solid;
+    border-color: rgb(216, 137, 64);
+    height: 30px;
 }
 
 nav a{

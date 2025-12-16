@@ -2,56 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" type="tab icon" href="oil pan.png">
+    <link rel="stylesheet" href="mater piss.css">
+    <script src="mater piss.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>palindrome tester? wat</title>
-
-    <link rel="stylesheet" href="palindrome testing.css">
-    <link rel="shortcut icon" type="tab icon" href="WORDS.png">
-    <script src="palindrome testing.js"></script>
+    <title>Mater Pissed His Pants</title>
 </head>
 <body>
  <center>
-    <header>
-        <h1>~- PALINDROME TESTER -~</h1>
-    </header>
+    <h1>Mater Pissed His Pants</h1>
 
     <main>
-        <!-- make it so the form will not submit bc its a client side test -->
-        <form onsubmit="return false;">
-            <br>
-            <br>
-            <label for="txtInput">Word or Phrase to Test: </label>
-            <br>
-            <br>
-            <input type="text" id="txtInput" required>
-            <br>
-            <br>
-            <button onclick="testPalindrome();">Test word</button>
-            <br>
-            <br>
-        </form>
-
-        <h2>
-            <div id="divResult"></div>
-        </h2>
-    </main>
-    <footer>
+        <img src="mater.png" alt="">
+        <!-- div to hold the dynamically created ausio elements -->
+        <div id="divAudio"></div>
+        <br>
+        <!-- button to add audio to page --> 
+         <button>
+            <img src="maters piss beer.png"
+            id="btnAddAudio"
+            width="200"
+            onclick="addAudio();">
+        </button> 
         <br>
         <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+        <!-- buttons to play an paue the audiio -->
+        <button id="btnPlayAudio" onclick="playAudio();" hidden="true">play audio</button>
+        <button id="btnPauseAudio" onclick="pauseAudio();" hidden="true">pause audio</button>
         <br>
         <br>
         <br>
@@ -78,7 +55,7 @@
             <br>
             <a href="https://www.youtube.com/@hi_monke" class="nav-youtube">my youtube channel :D</a>
         </nav>
-    </footer>
+    </main>
  </center>
 </body>
 </html>

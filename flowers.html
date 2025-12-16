@@ -2,56 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" type="tab icon" href="pikmin.png">
+    <link rel="stylesheet" href="flowers.css">
+    <script src="flowers.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>palindrome tester? wat</title>
-
-    <link rel="stylesheet" href="palindrome testing.css">
-    <link rel="shortcut icon" type="tab icon" href="WORDS.png">
-    <script src="palindrome testing.js"></script>
+    <title>flowers yay :D</title>
 </head>
 <body>
- <center>
-    <header>
-        <h1>~- PALINDROME TESTER -~</h1>
-    </header>
+    <h2>🌺 List of Plants and Flowers 🌼</h2>
+    <div>
+        <!-- ul is the unordered list - items will have a bullet point next to them, ul is good for showing a list of bulleted items. -->
+        <ul id="ulPlants">
 
-    <main>
-        <!-- make it so the form will not submit bc its a client side test -->
-        <form onsubmit="return false;">
-            <br>
-            <br>
-            <label for="txtInput">Word or Phrase to Test: </label>
-            <br>
-            <br>
-            <input type="text" id="txtInput" required>
-            <br>
-            <br>
-            <button onclick="testPalindrome();">Test word</button>
-            <br>
-            <br>
-        </form>
+        </ul>
 
-        <h2>
-            <div id="divResult"></div>
-        </h2>
-    </main>
-    <footer>
+        <h4>* click plant name to delete it D: *</h4>
+
+        <h3>🌻 add more plants/flowers :D 🌹</h3>
+        <input type="text" id="txtNewPlant">
+        <br>
+        <br>
+        <button onclick="addPlant();">🌷 add plant 🌸</button>
         <br>
         <br>
         <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+        <img src="pikmin.png" alt="">
         <br>
         <br>
         <br>
@@ -78,7 +53,8 @@
             <br>
             <a href="https://www.youtube.com/@hi_monke" class="nav-youtube">my youtube channel :D</a>
         </nav>
-    </footer>
- </center>
+    </div>
+    <center>
+    </center>
 </body>
 </html>

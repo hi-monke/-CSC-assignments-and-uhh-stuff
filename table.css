@@ -1,0 +1,194 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(bizniz.png);
+    background-repeat: repeat;
+    background-size: 100vw 100vh;
+}
+
+h1{
+    font-family: Impact;
+    font: 800 40px;
+    font-size:3vw;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1px;
+}
+
+caption{
+    font-family: Impact;
+    font: 800 40px;
+    font-size:1.5vw;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1.5px;
+}
+
+table{
+    max-width: 800px;
+    /* multiple borders in the same area will collapse into a single border */
+    border-collapse: collapse;
+}
+
+tr, th, td{
+    padding: 10px;
+    border: 2px solid #000000;
+    text-align: center;
+    font-family: 'verdana';
+}
+
+tr{
+    background-color: rgb(235, 245, 255);
+}
+
+th{
+    background-color: rgb(138, 156, 170);
+}
+
+tr:nth-child(even){
+    background-color: rgb(223, 234, 243);
+}
+
+td:nth-child(1){
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+        th:hover:nth-child(1){
+        color: rgb(255, 0, 0);
+        }
+
+                td:hover:nth-child(1){
+                transform: scale(1.1);
+                background-color: rgb(201, 37, 37);
+                color: aliceblue;
+                }
+
+td:nth-child(2){
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+        th:hover:nth-child(2){
+        color: rgb(162, 0, 255);
+        }
+
+                td:hover:nth-child(2){
+                transform: scale(1.1);
+                background-color: rgb(127, 37, 201);
+                color: aliceblue;
+                }
+
+td:nth-child(3){
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+        th:hover:nth-child(3){
+        color: rgb(255, 145, 0);
+        }
+
+                td:hover:nth-child(3){
+                transform: scale(1.1);
+                background-color: rgb(197, 107, 33);
+                color: aliceblue;
+                }
+
+td:nth-child(4){
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+        th:hover:nth-child(4){
+        color: rgb(74, 235, 87);
+        }
+
+                td:hover:nth-child(4){
+                transform: scale(1.1);
+                background-color: rgb(34, 112, 53);
+                color: aliceblue;
+                }
+
+tr:hover{
+    background-color: rgb(169, 213, 243);
+}
+
+nav a{
+    text-decoration: none;
+    padding: 2px;
+    line-height: 30px;
+    border-radius: 6px;
+    border: 2.5px solid;
+}
+
+.nav-index {
+    background-color: #14181d;
+    color: #f987c5;
+    border: 2.5px solid #fff5f7;
+}
+
+.nav-boards {
+    background-color: #14181d;
+    color: #f987c5;
+    border: 2.5px solid #fff5f7;
+}
+
+.nav-basics{
+    background-color: #ffffff;
+    color: #000000;
+    border: 2.5px solid #ffffff;
+}
+
+.nav-dice{
+    background-color: #e0f0ff;
+    color: #6098ff;
+    border: 2.5px solid #00a2ff;
+}
+
+.nav-input{
+    background-color: #21723c;
+    color: #62ff6a;
+    border: 2.5px solid #3cff36;
+}
+
+.nav-palindrome{
+    background-color: #d4a0ff;
+    color: #430069;
+    border: 2.5px solid #ff18a6;
+}
+
+.nav-sanic{
+    line-height: 42px;
+    background-color: #e0f0ff;
+    color: blue;
+    border: 0px solid #ffffff;
+    box-shadow:
+        0 0 0 2px orange,
+        0 0 0 6px yellow,
+        0 0 0 8px orange;
+}
+
+.nav-mater{
+    background-color: rgb(100, 76, 53);
+    color: rgb(118, 231, 212);
+    border: 2.5px solid rgb(216, 137, 64);
+}
+
+.nav-flowers{
+    line-height: 32px;
+    background-color: rgb(255, 238, 250);
+    color: #f5052d;
+    border: 0px solid #ffffff;
+    box-shadow:
+        0 0 0 2px #f987c5,
+        0 0 0 4px #a31e67;
+}
+
+.nav-table{
+    background-color: rgb(138, 156, 170);
+    color: #000000;
+    border: 2.5px solid rgb(223, 234, 243);
+}
+
+.nav-youtube{
+    background-color: #ff0033;
+    color: #ffffff;
+    border: 2.5px solid #0f0f0f;
+}
